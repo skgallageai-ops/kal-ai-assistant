@@ -29,8 +29,7 @@ import {
 } from 'lucide-react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Vite වලදී Environment Variable එක ගන්නේ මෙහෙමයි
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 interface Attachment {
