@@ -1,0 +1,22 @@
+
+{
+  "name": "KAL AI Assistant",
+  "short_name": "KAL AI",
+  "description": "Intelligent Multi-Modal Workspace",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10522/10522194.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10522/10522194.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
